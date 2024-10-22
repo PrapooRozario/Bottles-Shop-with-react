@@ -1,0 +1,17 @@
+.bottles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.bottle img{
+    width: 300px;
+}
+
+.bottle{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 12px;
+}
